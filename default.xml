@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+   <!-- Remote -->
+   <remote name="lab" fetch="https://gitgud.io/"/>
+   <remote name="gh" fetch="https://github.com"/>
+   <remote name="bit" fetch="https://codeberg.org/"/>
+
+   <!-- Trees -->
+   <project path="device/xiaomi/rosemary" name="LynxSlash/android_device_xiaomi_rosemary_t_vendor" remote="gh" revision="ursa" clone-depth="1"/>
+   <project path="kernel/xiaomi/mt6785" name="xiaomi-mt6785-dev/android_kernel_xiaomi_mt6785" remote="gh" revision="lineage-21" clone-depth="1"/>
+   <project path="vendor/xiaomi/rosemary" name="xiaomi-mt6785-dev/proprietary_vendor_xiaomi_rosemary" remote="gh" revision="lineage-21" clone-depth="1"/>
+   
+   <!-- SePolicy -->
+   <project path="device/mediatek/sepolicy_vndr" name="LineageOS/android_device_mediatek_sepolicy_vndr" remote="gh" revision="lineage-21" clone-depth="1"/>
+   
+   <!-- Hardware -->
+   <project path="hardware/mediatek" name="LineageOS/android_hardware_mediatek" remote="gh" revision="lineage-21" clone-depth="1"/>
+   <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="gh" revision="lineage-21" clone-depth="1"/>
+
+</manifest>
